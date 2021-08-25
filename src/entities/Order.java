@@ -55,7 +55,7 @@ public class Order {
 		items.add(item);		
 	}
 	
-	public void remodeItem(OrderItem item) {
+	public void removeItem(OrderItem item) {
 		items.remove(item);
 	}
 	
